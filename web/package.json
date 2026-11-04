@@ -1,0 +1,32 @@
+{
+  "name": "mermaid-previewer-web",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build && touch ../internal/web/dist/.gitkeep",
+    "preview": "vite preview",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@stylexjs/stylex": "0.19.1",
+    "mermaid": "^12.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "svg-pan-zoom": "^3.6.2"
+  },
+  "devDependencies": {
+    "@stylexjs/babel-plugin": "0.19.1",
+    "@stylexjs/postcss-plugin": "0.19.1",
+    "@types/node": "^22.20.5",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/svg-pan-zoom": "^3.4.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.8.0",
+    "vite": "^8.0.0"
+  }
+}

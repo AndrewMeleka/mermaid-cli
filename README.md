@@ -10,6 +10,12 @@ mermaid serve ./docs
 
 Then open http://localhost:9510.
 
+![The previewer: a sidebar listing the folder's Mermaid files grouped by directory, and the selected diagram rendered on the right with zoom controls and an export button](docs/screenshot.png)
+
+The sidebar on the left lists every `.mmd` / `.mermaid` file found under the
+folder, grouped by directory. Click one and it renders on the right; edit the
+file and the preview updates in place.
+
 ## Features
 
 - **Recursive discovery** of `.mmd` and `.mermaid` files, skipping
